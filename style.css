@@ -1,0 +1,73 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 100%;
+    padding-top: 60px; /* Add padding to the top to account for the fixed header */
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header stays on top of other content */
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem; /* Responsive font size */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+header a:hover {
+    color: green; /* Change color to green on hover */
+}
+
+header img {
+    height: 1.9rem; /* Smaller logo size */
+    cursor: pointer;
+    margin-left: 0.75rem; /* Slightly closer to the center */
+}
+
+header a:last-child {
+    margin-right: 6rem; /* Slightly closer to the center */
+    font-family: sans-serif; /* Change font family to sans-serif */
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    header img {
+        height: 1.5rem;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-bottom: 0.5rem;
+    }
+}
