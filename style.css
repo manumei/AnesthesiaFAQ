@@ -62,11 +62,11 @@ header a:hover {
     }
 
     header a {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     header a:last-child {
-        margin-right: 1rem; /* Adjust spacing as needed */
+        margin-right: 3rem; /* Adjust spacing as needed */
     }
 }
 
@@ -83,10 +83,10 @@ header a:hover {
     }
 
     header a {
-        font-size: 0.9rem; /* Smaller font size for very small screens */
+        font-size: 1rem; /* Smaller font size for very small screens */
     }
 
     header a:last-child {
-        margin-right: 1rem; /* Adjust spacing as needed */
+        margin-right: 2.75rem; /* Adjust spacing as needed */
     }
 }
