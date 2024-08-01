@@ -9,19 +9,30 @@ body {
     padding-top: 60px; /* Adjust to match the header's height */
 }
 
+/* Ensure the header items are horizontally aligned */
 header {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.7rem; /* Adjust if needed for header height */
+    padding: 1.7rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000; /* Ensure header is above other content */
+}
+
+header img {
+    height: 1.9rem; /* Adjust logo size */
+    margin-left: 0.75rem; /* Adjust if needed for positioning */
+}
+
+header a:last-child {
+    margin-right: 6rem; /* Adjust to move FAQ slightly closer to the center */
+    font-family: sans-serif; /* Font family for FAQ link */
 }
 
 header a {
@@ -36,29 +47,18 @@ header a:hover {
     color: rgb(12, 200, 12); /* Hover color */
 }
 
-header img {
-    height: 1.9rem; /* Adjust logo size */
-    cursor: pointer;
-}
-
-header a:last-child {
-    margin-right: 6rem; /* Adjust to move FAQ slightly closer to the center */
-    font-family: sans-serif; /* Font family for FAQ link */
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
         padding: 0.5rem;
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
-        justify-content: center; /* Center items vertically */
-        text-align: center; /* Center text within the header */
+        /* Ensure horizontal alignment is maintained */
+        justify-content: space-between;
+        align-items: center;
     }
 
     header img {
         height: 1.5rem;
-        margin-bottom: 0.5rem; /* Space between logo and FAQ */
     }
 
     header a {
@@ -66,13 +66,16 @@ header a:last-child {
     }
 
     header a:last-child {
-        margin: 0; /* Remove extra margin */
+        margin-right: 1rem; /* Adjust spacing as needed */
     }
 }
 
 @media (max-width: 480px) {
     header {
         padding: 0.5rem;
+        /* Ensure horizontal alignment is maintained */
+        justify-content: space-between;
+        align-items: center;
     }
 
     header img {
@@ -84,7 +87,6 @@ header a:last-child {
     }
 
     header a:last-child {
-        margin: 0; /* Remove extra margin */
+        margin-right: 1rem; /* Adjust spacing as needed */
     }
 }
-
