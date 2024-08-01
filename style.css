@@ -150,3 +150,32 @@ header a:hover {
 .collapse {
     padding: 1rem; /* Add some padding inside the collapsible content */
 }
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Lighten button background on hover */
+    text-decoration: none;
+    color: black; 
+}
+
+.btn.toggle-btn {
+    border: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.btn.toggle-btn:focus, .btn.toggle-btn:active {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif; /* Match header font */
+    font-size: 1rem; /* Adjust button font size */
+    color: black; /* Button text color */
+    background-color: rgba(0, 0, 0, 0.15); /* Button background color */
+    border: none; /* Remove button border */
+    padding: 0.2rem 0.6rem; /* Adjust button padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
