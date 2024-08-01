@@ -90,3 +90,18 @@ header a:hover {
         margin-right: 2.75rem; /* Adjust spacing as needed */
     }
 }
+
+#faq {
+    margin: 2rem auto;
+    margin-top: 3rem;
+    max-width: 800px; /* Adjust the width as needed */
+    padding: 0 1rem; /* Add padding to the sides */
+}
+
+#faq h1 {
+    text-align: center; /* Center the title */
+    font-size: 2rem; /* Adjust font size */
+    margin-bottom: 1.5rem; /* Space below the title */
+    font-family: 'Montserrat', sans-serif; /* Match header font */
+    color: #333; /* Dark gray color for better readability */
+}
