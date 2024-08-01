@@ -13,13 +13,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    
-    <!-- CSS & JS Links -->
+
+    <!-- CSS Links -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" href="normalize.css" as="style">
     <link rel="stylesheet" href="normalize.css">
     <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css">
+
+
+    <!-- JS Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js" defer></script>
+
 </head>
 
 <body>
@@ -31,11 +38,153 @@
     </header>
 
     <main>
-        <section id="faq">
+        <section id="faq" class="wider-container mt-5">
             <h1>Preguntas Frecuentes</h1>
-            <!-- FAQ items will go here -->
+            <div class="row">
+                <!-- Question 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 1: What is your return policy?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer1" aria-expanded="false" aria-controls="answer1">+</button>
+                        </div>
+                        <div id="answer1" class="collapse">
+                            <div class="card-body">
+                                We offer a 30-day return policy. For more details, visit our return policy page.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for all 10 questions -->
+                <!-- Question 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 2: How can I track my order?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer2" aria-expanded="false" aria-controls="answer2">+</button>
+                        </div>
+                        <div id="answer2" class="collapse">
+                            <div class="card-body">
+                                You can track your order using the tracking link sent to your email after the purchase.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 3: Do you offer international shipping?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer3" aria-expanded="false" aria-controls="answer3">+</button>
+                        </div>
+                        <div id="answer3" class="collapse">
+                            <div class="card-body">
+                                Yes, we offer international shipping to many countries. Please check our shipping policy for more details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 4 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 4: What payment methods do you accept?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer4" aria-expanded="false" aria-controls="answer4">+</button>
+                        </div>
+                        <div id="answer4" class="collapse">
+                            <div class="card-body">
+                                We accept various payment methods including credit cards, PayPal, and more. Please see our payment options page for details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 5 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 5: How do I cancel my order?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer5" aria-expanded="false" aria-controls="answer5">+</button>
+                        </div>
+                        <div id="answer5" class="collapse">
+                            <div class="card-body">
+                                To cancel your order, please contact our customer service team as soon as possible. If the order has not been shipped, we will process the cancellation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 6 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 6: How do I return an item?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer6" aria-expanded="false" aria-controls="answer6">+</button>
+                        </div>
+                        <div id="answer6" class="collapse">
+                            <div class="card-body">
+                                To return an item, please follow the instructions on our return policy page and contact customer support if you need assistance.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 7 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 7: How long does shipping take?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer7" aria-expanded="false" aria-controls="answer7">+</button>
+                        </div>
+                        <div id="answer7" class="collapse">
+                            <div class="card-body">
+                                Shipping times vary depending on the destination. Please check our shipping policy for estimated delivery times.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 8 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 8: Can I change my shipping address?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer8" aria-expanded="false" aria-controls="answer8">+</button>
+                        </div>
+                        <div id="answer8" class="collapse">
+                            <div class="card-body">
+                                Yes, you can change your shipping address before the order is shipped. Please contact customer support to update your address.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 9 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 9: What should I do if I receive a damaged item?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer9" aria-expanded="false" aria-controls="answer9">+</button>
+                        </div>
+                        <div id="answer9" class="collapse">
+                            <div class="card-body">
+                                If you receive a damaged item, please contact our customer service team immediately with photos of the damage and we will assist you with a replacement or refund.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 10 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card faq-card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <span>Question 10: Do you offer gift wrapping?</span>
+                            <button class="btn btn-link toggle-btn" type="button" data-toggle="collapse" data-target="#answer10" aria-expanded="false" aria-controls="answer10">+</button>
+                        </div>
+                        <div id="answer10" class="collapse">
+                            <div class="card-body">
+                                Yes, we offer gift wrapping services for an additional fee. You can select the gift wrapping option during checkout.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </section>
     </main>
-    
+
 
 </body>

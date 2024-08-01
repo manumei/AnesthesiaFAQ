@@ -45,6 +45,7 @@ header a {
 
 header a:hover {
     color: rgb(12, 200, 12); /* Hover color */
+    text-decoration: none;
 }
 
 
@@ -94,7 +95,8 @@ header a:hover {
 #faq {
     margin: 2rem auto;
     margin-top: 3rem;
-    max-width: 800px; /* Adjust the width as needed */
+    width: 90%; /* Adjust the width as needed */
+    max-width: 1600px; /* Adjust the width as needed */
     padding: 0 1rem; /* Add padding to the sides */
 }
 
@@ -103,5 +105,48 @@ header a:hover {
     font-size: 2rem; /* Adjust font size */
     margin-bottom: 1.5rem; /* Space below the title */
     font-family: 'Montserrat', sans-serif; /* Match header font */
-    color: #333; /* Dark gray color for better readability */
+    color: #2b2b2b; /* Dark gray color for better readability */
+    font-weight: bold;
+}
+
+/* esto maybe lo tengas que descomentar si las cosas empiezan a fallar */
+/* .wider-container {
+    width: 90%;
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+/* Adjust row to ensure no extra space */
+.row {
+    margin-left: 0; /* Remove extra margin on the left */
+    margin-right: 0; /* Remove extra margin on the right */
+}
+
+/* Increase column width */
+@media (min-width: 768px) { /* Adjust for medium devices and up */
+    .row > .col-md-6 {
+        flex: 0 0 50%; /* Make each column 50% of the row width */
+        max-width: 50%; /* Ensure column does not exceed 50% of the row width */
+    }
+}
+
+/* Ensure the cards fill their columns */
+.card {
+    width: 100%; /* Ensure each card takes up the full width of its column */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+/* Adjust card header styling */
+.card-header {
+    display: flex;
+    justify-content: space-between; /* Space out the title and button */
+    align-items: center;
+}
+
+/* Adjust card body styling for expansion */
+.collapse {
+    padding: 1rem; /* Add some padding inside the collapsible content */
 }
