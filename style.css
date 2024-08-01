@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 100%;
-    padding-top: 60px; /* Add padding to the top to account for the fixed header */
+    padding-top: 60px; /* Adjust to match the header's height */
 }
 
 header {
@@ -15,13 +15,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.7rem;
+    padding: 1.7rem; /* Adjust if needed for header height */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensure the header stays on top of other content */
+    z-index: 1000; /* Ensure header is above other content */
 }
 
 header a {
@@ -33,23 +33,25 @@ header a {
 }
 
 header a:hover {
-    color: green; /* Change color to green on hover */
+    color: rgb(12, 200, 12); /* Hover color */
 }
 
 header img {
-    height: 1.9rem; /* Smaller logo size */
+    height: 1.9rem; /* Adjust logo size */
     cursor: pointer;
-    margin-left: 0.75rem; /* Slightly closer to the center */
 }
 
 header a:last-child {
-    margin-right: 6rem; /* Slightly closer to the center */
-    font-family: sans-serif; /* Change font family to sans-serif */
+    margin-right: 6rem; /* Adjust to move FAQ slightly closer to the center */
+    font-family: sans-serif; /* Font family for FAQ link */
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     header {
         padding: 0.5rem;
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
     }
 
     header img {
@@ -59,15 +61,30 @@ header a:last-child {
     header a {
         font-size: 1rem;
     }
+
+    header a:last-child {
+        margin-right: 0; /* Remove margin in column layout */
+        margin-top: 0.5rem; /* Add space between logo and FAQ */
+        margin-left: 2rem; /* Slightly adjust to move FAQ closer to the center */
+    }
 }
 
 @media (max-width: 480px) {
     header {
-        flex-direction: column;
-        text-align: center;
+        padding: 0.5rem;
     }
 
     header img {
-        margin-bottom: 0.5rem;
+        height: 1.5rem;
+    }
+
+    header a {
+        font-size: 0.9rem; /* Smaller font size for very small screens */
+    }
+
+    header a:last-child {
+        margin-right: 0;
+        margin-top: 0.5rem;
+        margin-left: 2rem; /* Adjust for very small screens as well */
     }
 }
