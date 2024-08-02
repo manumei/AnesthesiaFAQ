@@ -181,7 +181,7 @@ header a:hover {
 }
 
 .social-media-footer {
-    background-color: #f8f9fa;
+    background-color: rgb(3, 213, 3, 0.025);
     padding: 20px 0;
     position: fixed;
     bottom: 0;
