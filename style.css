@@ -179,3 +179,33 @@ header a:hover {
     cursor: pointer; /* Change cursor to pointer on hover */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
+
+.social-media-footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media-footer .social-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0 0.8rem;
+    transition: transform 0.3s;
+}
+
+.social-media-footer .action-icon {
+    width: 6rem;
+    height: 3rem;
+    margin: 0 1.6rem;
+    transition: transform 0.3s;
+}
+
+.social-media-footer .social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-media-footer .action-icon:hover {
+    transform: scale(1.1);
+}
