@@ -1,1 +1,9 @@
-texteno1
+La anestesia es un procedimiento médico que se utiliza para aliviar la ansiedad, para adormecer una parte del cuerpo o inducir un estado de insensibilidad temporal para realizar una cirugía u otro procedimiento medico incómodo. 
+Hay diferentes técnicas de anestesia: <br>
+<br>
+<ul>
+<li>Anestesia Local y tópica: Se utiliza para adormecer una pequeña área o región específica del cuerpo. Es común en procedimientos menores, como la extracción de un diente o la sutura de una herida.</li> <br>
+<li>Anestesia Regional: Bloquea la sensación en una región más grande del cuerpo, como un brazo o la región inferior del cuerpo, sin afectar la conciencia del paciente. Ejemplos incluyen la anestesia epidural para el parto o el bloqueo de plexos nerviosos para cirugia de mano.</li> <br>
+<li>Sedación: Se utiliza para estudios diagnósticos o se combina con la anestesia local o regional para mantener al paciente relajado y cómodo durante la cirugía. Los medicamentos se administran a través de una vía intravenosa.</li> <br>	
+<li>Anestesia General: Induce un estado de inconsciencia total en el paciente, de modo que no siente dolor ni está consciente durante la cirugía. Se utiliza en cirugías más complejas y se administra mediante inhalación de gases anestésicos o inyección de medicamentos a través de una vía intravenosa.</li>
+</ul>
