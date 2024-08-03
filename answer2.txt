@@ -1,1 +1,14 @@
-textoti2
+Los anestesiólogos somos médicos especializados en administrar anestesia. Para ser anestesiólogos, luego de recibirnos de médicos nos especializamos intensivamente por 4 años. Nuestro papel es evaluar, planificar y administrar la anestesia durante procedimientos incomodos o riesgosos. <br>
+Nuestra formación y experiencia nos permiten administrar anestesia de manera precisa y cuidadosa, además de brindarte atención integral antes, durante y después de estos procedimientos.
+<br>
+<br>
+
+Nuestras responsabilidades clave son:
+<br>
+<ul>
+<li>Evaluación Preoperatoria: Antes de una cirugía o procedimiento, te evaluamos para determinar la mejor técnica de anestesia y para asegurar que estés en condiciones adecuadas para recibir anestesia. </li> <br>
+<li>Administración de Anestesia: Durante el procedimiento, somos responsables de administrar la anestesia de manera precisa y segura. Esto puede incluir anestesia local, regional ,sedación o general, según tus necesidades y el tipo de cirugía. </li> <br>
+<li>Monitorización Continua: te supervisamos de cerca durante todo el procedimiento, controlando tus signos vitales como la frecuencia cardíaca, la presión arterial, la oxigenación y el estado de conciencia. Esto garantiza tu seguridad y permite ajustar la anestesia según sea necesario. </li> <br>			
+<li>Manejo de complicaciones: Los anestesiólogos estamos capacitados para manejar diversas situaciones durante la cirugía, como reacciones alérgicas, problemas respiratorios o cardíacos, y otros eventos inesperados. </li> <br>
+<li>Atención Posoperatoria: Después de la cirugía, los anestesiólogos continuamos monitorizandote en la sala de recuperación , brindándote atención médica para asegurar que te recuperes adecuadamente de la anestesia. </li>
+</ul>
