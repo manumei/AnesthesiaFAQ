@@ -194,6 +194,7 @@ html, body {
 .social-media-footer {
     background-color: #f8f9fa;
     padding: 16px 0;
+    bottom: 0;
 }
 
 .social-media-footer .social-icon {
