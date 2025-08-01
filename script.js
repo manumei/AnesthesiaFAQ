@@ -1,4 +1,4 @@
-// script.js
+// questions toggle
 $(document).ready(function() {
     $('.toggle-btn').on('click', function() {
         var $this = $(this);
