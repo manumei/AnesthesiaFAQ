@@ -6,11 +6,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 100%;
-    padding-top: 60px; /* Adjust to match the header's height */
+    padding-top: 60px;
     min-height: 100vh;
 }
 
-/* Ensure the header items are horizontally aligned */
+/* Align Horizontally */
 header {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
@@ -23,29 +23,29 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensure header is above other content */
+    z-index: 1000;
 }
 
 header img {
-    height: 1.9rem; /* Adjust logo size */
-    margin-left: 0.75rem; /* Adjust if needed for positioning */
+    height: 1.9rem;
+    margin-left: 0.75rem;
 }
 
 header a:last-child {
-    margin-right: 6rem; /* Adjust to move FAQ slightly closer to the center */
-    font-family: sans-serif; /* Font family for FAQ link */
+    margin-right: 6rem;
+    font-family: sans-serif;
 }
 
 header a {
     text-decoration: none;
     color: black;
-    font-size: 1.25rem; /* Responsive font size */
+    font-size: 1.25rem;
     cursor: pointer;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    transition: color 0.3s ease;
 }
 
 header a:hover {
-    color: rgb(12, 200, 12); /* Hover color */
+    color: rgb(12, 200, 12);
     text-decoration: none;
 }
 
@@ -54,7 +54,6 @@ header a:hover {
 @media (max-width: 768px) {
     header {
         padding: 0.5rem;
-        /* Ensure horizontal alignment is maintained */
         justify-content: space-between;
         align-items: center;
     }
@@ -68,14 +67,13 @@ header a:hover {
     }
 
     header a:last-child {
-        margin-right: 3rem; /* Adjust spacing as needed */
+        margin-right: 3rem;
     }
 }
 
 @media (max-width: 480px) {
     header {
         padding: 0.5rem;
-        /* Ensure horizontal alignment is maintained */
         justify-content: space-between;
         align-items: center;
     }
@@ -85,11 +83,11 @@ header a:hover {
     }
 
     header a {
-        font-size: 1rem; /* Smaller font size for very small screens */
+        font-size: 1rem;
     }
 
     header a:last-child {
-        margin-right: 2.75rem; /* Adjust spacing as needed */
+        margin-right: 2.75rem;
     }
 }
 
@@ -102,11 +100,11 @@ header a:hover {
 }
 
 #faq h1 {
-    text-align: center; /* Center the title */
-    font-size: 2rem; /* Adjust font size */
-    margin-bottom: 1.5rem; /* Space below the title */
-    font-family: 'Montserrat', sans-serif; /* Match header font */
-    color: #2b2b2b; /* Dark gray color for better readability */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
     font-weight: bold;
 }
 
@@ -119,24 +117,24 @@ header a:hover {
     padding-right: 15px;
 } */
 
-/* Adjust row to ensure no extra space */
+ /* Remove extra margin on sides */
 .row {
-    margin-left: 0; /* Remove extra margin on the left */
-    margin-right: 0; /* Remove extra margin on the right */
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Increase column width */
 @media (min-width: 768px) { /* Adjust for medium devices and up */
     .row > .col-md-6 {
-        flex: 0 0 50%; /* Make each column 50% of the row width */
-        max-width: 50%; /* Ensure column does not exceed 50% of the row width */
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
 /* Ensure the cards fill their columns */
 .card {
-    width: 100%; /* Ensure each card takes up the full width of its column */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -149,7 +147,7 @@ header a:hover {
 
 /* Adjust card body styling for expansion */
 .collapse {
-    padding: 1rem; /* Add some padding inside the collapsible content */
+    padding: 1rem;
 }
 
 .btn:hover {
@@ -171,14 +169,14 @@ header a:hover {
 }
 
 .btn {
-    font-family: 'Montserrat', sans-serif; /* Match header font */
-    font-size: 1rem; /* Adjust button font size */
-    color: black; /* Button text color */
-    background-color: rgba(0, 0, 0, 0.15); /* Button background color */
-    border: none; /* Remove button border */
-    padding: 0.2rem 0.6rem; /* Adjust button padding */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: none;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 html, body {
